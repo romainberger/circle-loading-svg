@@ -1,0 +1,8 @@
+{
+  "name": "circle-loading-svg",
+  "version": "0.0.1",
+  "main": "circle-loading-svg.js",
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}
