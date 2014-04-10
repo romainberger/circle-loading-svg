@@ -1,0 +1,18 @@
+{
+  "name": "circle-loading-svg",
+  "version": "0.0.1",
+  "main": "circle-loading-svg.js",
+  "dependencies": {
+    "jquery": "~2.0.3"
+  },
+  "homepage": "https://github.com/romainberger/circle-loading-svg",
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "c96f95120ce650d9c65c7025aefb59c48b0761e9"
+  },
+  "_source": "git://github.com/romainberger/circle-loading-svg.git",
+  "_target": "~0.0.1",
+  "_originalSource": "circle-loading-svg"
+}
