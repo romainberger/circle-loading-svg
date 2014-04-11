@@ -2,7 +2,7 @@
 
 Animation to draw a circle around an element (jQuery plugin).
 
-Basically a clone of the [circle-loading](https://github.com/romainberger/circle-loading) plugin I've made before, but with SVG. Why? Because the canvas version looks like cr*p on iPad / iPhone because of the aliasing. This one looks (hopefully) better.
+Basically a clone of the [circle-loading](https://github.com/romainberger/circle-loading) plugin I've made before, but with SVG instead of canvas. Why? Because the canvas version looks like cr*p on iPad / iPhone because of the aliasing. This one looks great.
 
 [Demo](http://romainberger.github.io/circle-loading-svg)
 
