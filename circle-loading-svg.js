@@ -34,6 +34,9 @@
     this.size  = this.width + 14
     this.position = (this.size - this.width) / 2
 
+    this.pathPosition = this.size / 2
+    this.pathRadius   = this.width / 2 + 4
+
     this.running
     this.i
 
@@ -47,7 +50,7 @@
           '<svg width="'+this.size+'" height="'+this.size+'" '
         , 'viewPort="0 0 120 120" version="1.1"'
         , 'xmlns="http://www.w3.org/2000/svg">'
-        , '<path id="arc" fill="none" stroke="'+this.options.strokeStyle+'" '
+        , '<path fill="none" stroke="'+this.options.strokeStyle+'" '
         , 'stroke-width="'+this.options.lineWidth+'">'
         , '</svg>'
       ].join('')
@@ -100,7 +103,7 @@
     },
 
     _draw: function() {
-      this.$path.attr('d', this.describeArc(47, 47, 44, 0, this.i))
+      this.$path.attr('d', this.describeArc(this.pathPosition, this.pathPosition, this.pathRadius, 0, this.i))
     },
 
     polarToCartesian: function(centerX, centerY, radius, angleInDegrees) {
