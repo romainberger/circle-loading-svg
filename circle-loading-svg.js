@@ -87,6 +87,12 @@
       var self = this
       this._draw()
 
+
+      if (this.options.stopOnComplete && this.i >= 360) {
+        this.stop()
+        return
+      }
+
       setTimeout(function() {
         self.i = self.i < 360 ? self.i + 5 : 0
         self._cycle()
